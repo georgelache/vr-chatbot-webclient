@@ -1,5 +1,6 @@
 // URL of your WebSocket backend
-const WS_URL = "ws://localhost:8080/chat";
+// const WS_URL = "ws://localhost:8080/chat";
+const WS_URL = "https://vrchatbotbackend-production.up.railway.app/chat";
 
 let socket;
 const chatDiv = document.getElementById("chat");
